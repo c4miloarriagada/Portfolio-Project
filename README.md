@@ -1,5 +1,5 @@
 <h1 align="center">Personal Portfolio</h1>
-Project created with Vite Js &amp;&amp; React Js
+<h3 align="center">Project created with Vite Js &amp;&amp; React Js</h3>
 <table align="center" style="background-color:#FFFFFF">
 <tr style="background-color:#FFFFFF">
 <th><h2>⚙Built with </h2></th>
