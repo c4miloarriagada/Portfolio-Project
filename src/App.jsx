@@ -1,5 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from './components/Home/Home';
+import { Skills } from "./components/Skills/Skills";
+import { About } from "./components/About/About";
+import { Works } from "./components/Works/Works";
 
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -14,6 +17,9 @@ function App() {
       <BrowserRouter>
           <Routes>
             <Route  path="/" element={<Home />} />
+            <Route path='/about' element={<About/>}/>
+            <Route path='/skills' element={<Skills/>}/>
+            <Route  path="/works" element={<Works/>}/>
           </Routes>
         </BrowserRouter>
       </div>

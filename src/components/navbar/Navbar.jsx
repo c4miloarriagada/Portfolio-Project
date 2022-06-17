@@ -25,7 +25,6 @@ export const Navbar = () => {
     
            <Link  style={styles} to='/'>Home</Link>
            <Link style={styles} to='/About'>About</Link>
-           <Link style={styles} to='/Resume'>Resume</Link>
            <Link style={styles} to='/Works'>Works</Link>
            <Link style={styles} to='/Skills'>Skills</Link>
    
