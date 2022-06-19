@@ -27,28 +27,34 @@ export const Home = () => {
           </h1>
           <div>
             <div class="container">
-              <section style={pStyle}>
-                AN enthusiast of technology and full stack developer from Chile
-                , i really love acquire new knowledge relationed with my
-                interests, technology, music and sport are my passions. I just
-                finished my step of Soy Henry's Bootcamp , and i am ready for
-                new challenges in my professional career.
-              </section>
              <br/>
-             <br/>
-             <br/>
-             <hr style={{color: "#FFFAFA"}}/>
+             <div class="row">
+              <div style={pStyle} class='col'> 
+           
+              AN enthusiast of technology and full stack developer from Chile , 
+              i really love acquire new knowledge relationed with my interests. Technology, 
+              music and sport are my favorities topics. I just finished my step of Soy Henry's Bootcamp  , 
+              and i am ready for new challenges in my professional career.
+              <br/>
+              <br/>
+              <hr style={{color: "#FFFAFA"}}/>
+              <br/>
+              <br/>
+        
+
+              </div>
+             </div>
             </div>
           </div>
         </div>
-        <div>
+        <footer>
           <a
             style={styles}
             rel="noreferrer"
             href="https://www.linkedin.com/in/camilo-arriagada-vallejos-9754b9229/"
             target="_blank"
           >
-            <img alt="linkedin" src={Linkedin} width="120px" height="90px" />
+            <img alt="linkedin" src={Linkedin} width="100px" height="90px" />
           </a>
           <a
             style={styles}
@@ -56,9 +62,9 @@ export const Home = () => {
             href="https://github.com/c4miloarriagada/"
             target="_blank"
           >
-            <img alt="github" src={GitHub} width="120px" height="90px" />
+            <img alt="github" src={GitHub} width="100px" height="90px" />
           </a>
-        </div>
+        </footer>
       </div>
     </div>
   );
