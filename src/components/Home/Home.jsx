@@ -31,8 +31,8 @@ export const Home = () => {
              <div class="row">
               <div style={pStyle} class='col'> 
            
-              AN enthusiast of technology and full stack developer from Chile , 
-              i really love acquire new knowledge relationed with my interests. Technology, 
+              An enthusiast of technology and full stack developer from Chile , 
+              i really love acquire new knowledge relationed about my interests. Technology, 
               music and sport are my favorities topics. I just finished my step of Soy Henry's Bootcamp  , 
               and i am ready for new challenges in my professional career.
               <br/>
