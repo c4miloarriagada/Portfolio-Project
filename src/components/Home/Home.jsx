@@ -1,6 +1,8 @@
 import React from "react";
 import { NavbarLink } from "../navbar/Navbar";
 
+
+import { Container, Overlay } from "react-bootstrap";
 import Linkedin from "../assets/Linkedin.png";
 import GitHub from "../assets/GitHub.png";
 import style from "../Home/Home.module.css";
@@ -10,28 +12,30 @@ export const Home = () => {
   const styles = {
     color: "#FFFAFA",
     position: "relative",
-    margin: "90px",
-    fontSize: "5.0vw",
+
+ 
   };
   const pStyle = {
     color: "#FFFAFA",
-    fontSize: "1.5vw",
+   
   };
   return (
     <div className={style.all}>
       <div> 
         <NavbarLink />
         <div>
-          <h1 style={styles}>
+          <h1 className="display-1"  style={styles}>
             I am Camilo Arriagada Vallejos.
           </h1>
           <div>
             <div class="container">
              <br/>
-             <div class="row">
-              <div style={pStyle} class='col'> 
+            <Container fluid="md">
+              <p style={pStyle} class="lead" > 
            
               I am full stack web developer from Chile and  welcome to my portfolio  i will show you, all my projects and tell you about my  previous professional experience.
+              </p>
+            
               <br/>
               <br/>
               <hr style={{color: "#FFFAFA"}}/>
@@ -39,12 +43,12 @@ export const Home = () => {
               <br/>
         
 
-              </div>
-             </div>
+             
+          </Container>
             </div>
           </div>
         </div>
-        <footer>
+        <footer className="position-relative top-0 start-0">
           <a
             style={styles}
             rel="noreferrer"
