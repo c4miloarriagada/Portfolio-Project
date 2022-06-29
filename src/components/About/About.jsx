@@ -1,31 +1,38 @@
 import React from "react";
-import { Navbar } from "../navbar/Navbar";
+import { NavbarLink } from "../navbar/Navbar";
+import { Container } from "react-bootstrap";
 
 import style from "../About/About.module.css";
 
 export const About = () => {
   const pStyle = {
     color: "#FFFAFA",
-    fontSize: "1.4vw",
+  
+ 
+  
+    
   };
   const pStyleH1 = {
     color: "	#ab3ed8",
-    fontSize: "2vw",
+   
   };
  const pStyleMail = {
   color: "	#FFFAFA",
-  fontSize: "1.2vw",
  textDecoration: 'none'
  }
 
   return (
     <div className={style.all}>
-      <Navbar />
+      <NavbarLink />
+    
+   
       <h1 style={pStyleH1}>About Me</h1>
       <div class="container">
         <div class="row">
           <br />
-          <article style={pStyle}>
+          <Container> 
+
+          <p className="display-5" style={pStyle}>
             Hello! Thank you for visiting my profile, here below I tell you a
             little more about me Web developer and technology lover, today I I
             find myself finishing the soy Henry bootcamp and getting ready to
@@ -41,15 +48,17 @@ export const About = () => {
             so I always I find myself taking courses, either on Udemy or in
             projects personal, I already have 2 deployed projects which you can
             see in my projects section.
-          </article>
+          </p>
+          </Container>
           <footer>
-            <p>&copy; Camilo Arriagada Vallejos</p>
+            <p style = {{color: '#ab3ed8'}}>&copy; Camilo Arriagada Vallejos</p>
             <address>
              <a  style={pStyleMail} href="mailto:camilo.arriagadav@gmail.com">  Contact me</a>
             </address>
           </footer>
         </div>
       </div>
+ 
     </div>
   );
 };

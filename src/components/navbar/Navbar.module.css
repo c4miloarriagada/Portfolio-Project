@@ -1,11 +1,26 @@
-.nav-links {
-    display: inline-block;
-    height: 20px;
-    background-color:white;/*will change background-color of element */
-    color: green; /*will change color of text within the element */
-    }
-    
-    .nav-links:hover {
-    background-color:green; /*will change background-color of element on hover */
-    color: white; /*will change color of text within the element on hover */
-    }
+.my-navbar{
+    color: #037979;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6rem;
+    text-decoration: none;
+    margin: 10px  10px 10px  10px;
+  
+  }
+  .my-navbar:visited {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+  }
+  .my-navbar:hover {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #c10944;
+    font-size: 16px;
+    background-color: #61dafb;
+  }
+  .active {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #c10944;
+    font-size: 16px;
+    background-color: #61dafb;
+  }

@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar } from "../navbar/Navbar";
+import { NavbarLink } from "../navbar/Navbar";
 
 import Linkedin from "../assets/Linkedin.png";
 import GitHub from "../assets/GitHub.png";
@@ -15,12 +15,12 @@ export const Home = () => {
   };
   const pStyle = {
     color: "#FFFAFA",
-    fontSize: "1.4vw",
+    fontSize: "1.5vw",
   };
   return (
     <div className={style.all}>
       <div> 
-        <Navbar />
+        <NavbarLink />
         <div>
           <h1 style={styles}>
             I am Camilo Arriagada Vallejos.
@@ -31,10 +31,7 @@ export const Home = () => {
              <div class="row">
               <div style={pStyle} class='col'> 
            
-              An enthusiast of technology and full stack developer from Chile , 
-              i really love acquire new knowledge relationed about my interests. Technology, 
-              music and sport are my favorities topics. I just finished my step of Soy Henry's Bootcamp  , 
-              and i am ready for new challenges in my professional career.
+              I am full stack web developer from Chile and  welcome to my portfolio  i will show you, all my projects and tell you about my  previous professional experience.
               <br/>
               <br/>
               <hr style={{color: "#FFFAFA"}}/>
