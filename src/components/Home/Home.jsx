@@ -1,7 +1,6 @@
 import React from "react";
 import { NavbarLink } from "../navbar/Navbar";
 
-
 import { Container, Overlay } from "react-bootstrap";
 import Linkedin from "../assets/Linkedin.png";
 import GitHub from "../assets/GitHub.png";
@@ -12,54 +11,63 @@ export const Home = () => {
   const styles = {
     color: "#FFFAFA",
     position: "relative",
-
- 
   };
   const pStyle = {
     color: "#FFFAFA",
-   
   };
   return (
-  
-      <div> 
-        <NavbarLink />
-        <div className="container text-center d-flex flex-column p-5">  
-          <h1 className="display-1 p-5">
-            I am Camilo Arriagada Vallejos.
-          </h1>
+    <div className="container-fluid">
+      <NavbarLink />
+      <div className="container text-center d-flex flex-column p-5 text-white">
+        <div className="row my-5">
+          <div className="col">
+            <h1 className="display-1 p-5"> Camilo Arriagada Vallejos</h1>
+            <h2 className="text-white"><i> Full Stack Web Developer </i> </h2>
+          </div>
           <div>
-            <div >
-             <br/>    
-              <h3  className="mt-5" > 
-           
-              I am full stack web developer from Chile and  welcome to my portfolio  i will show you, all my projects and tell you about my  previous professional experience.
-              </h3>
-            
-              <br/>
-              <br/>
-              <hr style={{color: "#FFFAFA"}}/>
+            <div>
+              <br />
+              <div>
+                <h3 className="mt-5 ">
+                  Welcome to my portfolio i will show you all my projects and tell you about me and
+                  my previous professional experience.
+                </h3>
+              </div>
+
+              <br />
+              <br />
+              <hr style={{ color: "#FFFAFA" }} />
+              <div class=""></div>
+              <a
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/camilo-arriagada-vallejos-9754b9229/"
+                target="_blank"
+              >
+                <img
+                  alt="linkedin"
+                  src={Linkedin}
+                  width="100px"
+                  height="90px"
+                />
+              </a>
+              <a
+                rel="noreferrer"
+                href="https://github.com/c4miloarriagada/"
+                target="_blank"
+              >
+                <img alt="github" src={GitHub} width="100px" height="90px" />
+              </a>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+            </div>
           </div>
-          </div>
-        </div>
-        <div className=" text-center ">
-          <a
-          
-            rel="noreferrer"
-            href="https://www.linkedin.com/in/camilo-arriagada-vallejos-9754b9229/"
-            target="_blank"
-          >
-            <img alt="linkedin" src={Linkedin} width="100px" height="90px" />
-          </a>
-          <a
-         
-            rel="noreferrer"
-            href="https://github.com/c4miloarriagada/"
-            target="_blank"
-          >
-            <img alt="github" src={GitHub} width="100px" height="90px" />
-          </a>
         </div>
       </div>
-  
+    </div>
   );
 };

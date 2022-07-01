@@ -30,12 +30,14 @@ export const Works = () => {
 
 
   return (
-  
-      <div className="container d-flex justify-content-center align-items-center h-100">
-        <div className="row">
+        <div> 
+        <NavbarLink/>
+        <div className="container d-flex justify-content-center align-items-center h-100">
+        <div className="row container mt-5">
+          <h1 className="text-center mt-3 display-5 text-muted">Works</h1>
         { 
         webs.map(e => (
-          <div className="col-md-4" key={e.id}>
+          <div className="col-md-6 mt-5" key={e.id}>
           <Card 
           title={e.title}
           imgSource={e.image}
@@ -48,7 +50,15 @@ export const Works = () => {
         }
         </div>
       </div>
-   
+      <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br/>          
+      </div>
      
   );
 };
