@@ -1,4 +1,7 @@
-*{ 
-  font-family: 'Oswald', sans-serif;
+.App {
+  font-family: "Oswald", sans-serif;
 
+  height: 100vh;
+  background: rgb(215,173,192);
+  background: linear-gradient(180deg, rgba(215,173,192,1) 8%, rgba(141,157,197,1) 35%, rgba(107,149,199,1) 55%);
 }

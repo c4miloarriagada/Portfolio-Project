@@ -27,8 +27,8 @@ export const About = () => {
       <br />
       <Container fluid="sm">
         <p class="lead" style={pStyle}>
-          Hello! Thank you for visiting my profile, here below I tell you a
-          little more about me Web developer and technology lover, today I I
+          Hello! Thank you for visiting my portfolio, below I tell you a
+          little more about me. Web developer and technology lover, today I 
           find myself finishing the soy Henry bootcamp and getting ready to new
           challenges in the world of programming, I was working for several
           years in the field of aviation which allowed me develop assertive
