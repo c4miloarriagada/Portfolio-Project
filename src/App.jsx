@@ -6,7 +6,7 @@ import { Works } from "./components/Works/Works";
 
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import 'animate.css/animate.min.css'
 
 
 

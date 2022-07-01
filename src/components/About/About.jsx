@@ -17,10 +17,10 @@ export const About = () => {
   };
 
   return (
-    <div className={style.all}>
+    <div>
       <NavbarLink />
 
-      <h1 className="display-4" style={pStyleH1}>
+      <h1 className="display-4 text-center" >
         About Me
       </h1>
 
@@ -56,7 +56,7 @@ export const About = () => {
        
        
           >
-            <footer className="fixed-bottom" >
+            <footer className="fixed-bottom text-center" >
               <p style={{ color: "#ab3ed8" }}>
                 &copy; Camilo Arriagada Vallejos
               </p>

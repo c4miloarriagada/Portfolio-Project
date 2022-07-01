@@ -20,37 +20,30 @@ export const Home = () => {
    
   };
   return (
-    <div className={style.all}>
+  
       <div> 
         <NavbarLink />
-        <div>
-          <h1 className="display-1"  style={styles}>
+        <div className="container text-center d-flex flex-column p-5">  
+          <h1 className="display-1 p-5">
             I am Camilo Arriagada Vallejos.
           </h1>
           <div>
-            <div class="container">
-             <br/>
-            <Container fluid="md">
-              <p style={pStyle} class="lead" > 
+            <div >
+             <br/>    
+              <h3  className="mt-5" > 
            
               I am full stack web developer from Chile and  welcome to my portfolio  i will show you, all my projects and tell you about my  previous professional experience.
-              </p>
+              </h3>
             
               <br/>
               <br/>
               <hr style={{color: "#FFFAFA"}}/>
-              <br/>
-              <br/>
-        
-
-             
-          </Container>
-            </div>
+          </div>
           </div>
         </div>
-        <footer className="position-relative top-0 start-0">
+        <div className=" text-center ">
           <a
-            style={styles}
+          
             rel="noreferrer"
             href="https://www.linkedin.com/in/camilo-arriagada-vallejos-9754b9229/"
             target="_blank"
@@ -58,15 +51,15 @@ export const Home = () => {
             <img alt="linkedin" src={Linkedin} width="100px" height="90px" />
           </a>
           <a
-            style={styles}
+         
             rel="noreferrer"
             href="https://github.com/c4miloarriagada/"
             target="_blank"
           >
             <img alt="github" src={GitHub} width="100px" height="90px" />
           </a>
-        </footer>
+        </div>
       </div>
-    </div>
+  
   );
 };

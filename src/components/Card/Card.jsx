@@ -1,20 +1,25 @@
 import React from 'react'
 
-import Countries from '../assets/home.png'
+import './Card.css'
 
-export const Card = () => {
+
+
+export const Card = ({title, imgSource ,description, linkWeb, linkRepo}) => {
+  
+
   return (
     <div className='container'>
 
    
-    <div className='card text-center bg-dark '>
-        <img src={Countries} ></img>
+    <div className='card text-center bg-dark animate__animated animate__fadeIn'>
+      <div className='overflow'>
+      <img  src={imgSource} className='card-img-top'/>
+      </div>
         <div className='card-body text-light'>
-            <h4 className='card-title'>Countries App</h4>
-            <p className='card-text text-secondary'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, delectus similique! 
-            Reprehenderit nesciunt molestiae inventore, qui vel aperiam placeat! Et qui delectus est, expedita aut esse vero debitis harum vel?</p>
-            <a href='#!' className='btn btn-outline-secondary rounded-0'>GO TO WEBSITE!</a>
-            <a href='#!' className='btn btn-outline-secondary rounded-0'>GO TO REPOSITORY</a>
+            <h4 className='card-title'>{title}</h4>
+            <p className='card-text text-secondary'>{description}</p>
+            <a href={linkWeb} className='btn btn-outline-secondary rounded-0' target='_blank'>Website</a>
+            <a href={linkRepo} className='btn btn-outline-secondary rounded-0' target='_blank'>Repository</a>
         </div>
     </div>
     </div>

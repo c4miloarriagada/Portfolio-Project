@@ -5,9 +5,9 @@ import style from '../Skills/Skills.module.css'
 
 export const Skills = () => {
   return (
-    <div className={style.all}>
+    <div >
            <NavbarLink />
-        <h1> Skills </h1>
+        <h1 className='text-center'> Skills </h1>
 
     </div>
   )

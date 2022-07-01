@@ -29,7 +29,7 @@ export const NavbarLink = () => {
 
     <Navbar collapseOnSelect expand='lg' >
     <Navbar.Toggle aria-controls ='responseive-navbar-nav'/>
-      <Navbar.Collapse className="justify-content-center" >
+      <Navbar.Collapse className="justify-content-center text-center" >
         <Nav  >
            <Link  style={styles} to='/'>Home</Link>
            <Link  style={styles} to='/About'>About</Link>
