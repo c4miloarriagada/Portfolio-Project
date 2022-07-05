@@ -1,8 +1,8 @@
 .App {
-  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
 
   height: 100;
   background: rgb(241,183,209);
-  background: linear-gradient(180deg, rgba(241,183,209,1) 15%, rgba(162,182,231,1) 35%, rgba(127,171,223,1) 55%, rgba(108,146,193,1) 75%);
+  background: linear-gradient(180deg, rgba(241,183,209,1) 18%, rgba(162,182,231,1) 38%, rgba(127,171,223,1) 60%, rgba(108,146,193,1) 80%);
 
 }

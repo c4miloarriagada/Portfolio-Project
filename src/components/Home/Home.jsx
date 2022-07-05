@@ -18,11 +18,11 @@ export const Home = () => {
   return (
     <div className="container-fluid">
       <NavbarLink />
-      <div className="container text-center d-flex flex-column p-5 text-white">
+      <div className="container text-center d-flex flex-column p-5 text-muted">
         <div className="row my-5">
           <div className="col">
-            <h1 className="display-1 p-5"> Camilo Arriagada Vallejos</h1>
-            <h2 className="text-white"><i> Full Stack Web Developer </i> </h2>
+            <h1 className="display-1 p-5 text-dark"> Camilo Arriagada Vallejos</h1>
+            <h2><i> Full Stack Web Developer </i> </h2>
           </div>
           <div>
             <div>
@@ -39,6 +39,7 @@ export const Home = () => {
               <hr style={{ color: "#FFFAFA" }} />
               <div class=""></div>
               <a
+                className="animate__animated animate__fadeIn"
                 rel="noreferrer"
                 href="https://www.linkedin.com/in/camilo-arriagada-vallejos-9754b9229/"
                 target="_blank"
@@ -51,6 +52,7 @@ export const Home = () => {
                 />
               </a>
               <a
+                className="animate__animated animate__fadeIn"
                 rel="noreferrer"
                 href="https://github.com/c4miloarriagada/"
                 target="_blank"

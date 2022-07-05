@@ -8,16 +8,8 @@ import style from '../navbar/Navbar.module.css'
 
 
 
-//css
-const styles = {
-  fontSize: "30px", 
-  padding:'15px', 
-  color: 'white',
-  textDecoration: 'none',
- 
-  
-  
-}
+
+
 
 
 
@@ -25,18 +17,21 @@ export const NavbarLink = () => {
 
 
   return (
-    <div className='container'>
+    <div className='container mt-2 '>
 
     <Navbar collapseOnSelect expand='lg' >
     <Navbar.Toggle aria-controls ='responseive-navbar-nav'/>
       <Navbar.Collapse className="justify-content-center text-center" >
+        <nav>
+
         <Nav  >
-           <Link  style={styles} to='/'>Home</Link>
-           <Link  style={styles} to='/About'>About</Link>
-           <Link style={styles} to='/Works'>Works</Link>
-           <Link style={styles} to='/Skills'>Skills</Link>
+           <Link className='display-6 p-1 text-light text-decoration-none'  to='/'>Home</Link>
+           <Link className='display-6 p-1 text-light text-decoration-none' to='/About'>About</Link>
+           <Link className='display-6 p-1 text-light text-decoration-none' to='/Works'>Works</Link>
+           <Link className='display-6 p-1 text-light text-decoration-none' to='/Skills'>Skills</Link>
 
         </Nav>
+        </nav>
       </Navbar.Collapse>
    
     </Navbar>

@@ -34,7 +34,7 @@ export const Works = () => {
         <NavbarLink/>
         <div className="container d-flex justify-content-center align-items-center h-100">
         <div className="row container mt-5">
-          <h1 className="text-center mt-3 display-5 text-muted">Works</h1>
+          <h1 className="text-center mt-3 display-5 ">Projects</h1>
         { 
         webs.map(e => (
           <div className="col-md-6 mt-5" key={e.id}>
