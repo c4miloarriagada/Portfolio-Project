@@ -17,7 +17,7 @@ export const NavbarLink = () => {
 
 
   return (
-    <div className='container mt-2 '>
+    <div>
 
     <Navbar collapseOnSelect expand='lg' >
     <Navbar.Toggle aria-controls ='responseive-navbar-nav'/>

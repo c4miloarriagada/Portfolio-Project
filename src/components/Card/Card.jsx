@@ -11,7 +11,7 @@ export const Card = ({title, imgSource ,description, linkWeb, linkRepo}) => {
     <div className='container'> 
     <div className='card text-center bg-dark animate__animated animate__fadeIn'>
       <div className='overflow'>
-      <img  src={imgSource} className='card-img-top'/>
+      <img  src={imgSource} className='card-img-top img-fluid'/>
       </div>
         <div className='card-body text-light'>
             <h4 className='card-title'>{title}</h4>

@@ -16,12 +16,12 @@ export const Home = () => {
     color: "#FFFAFA",
   };
   return (
-    <div className="container-fluid">
+    <div >
       <NavbarLink />
-      <div className="container text-center d-flex flex-column p-5 text-muted">
+      <div className="container text-center justify-content-center d-flex flex-column p-5 text-muted">
         <div className="row my-5">
           <div className="col">
-            <h1 className="display-1 p-5 text-dark"> Camilo Arriagada Vallejos</h1>
+            <h1 className="display-1  p-5 text-dark"> Camilo Arriagada Vallejos</h1>
             <h2><i> Full Stack Web Developer </i> </h2>
           </div>
           <div>
