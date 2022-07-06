@@ -18,12 +18,12 @@ export const Home = () => {
   return (
     <div >
       <NavbarLink />
-      <div className="container text-center justify-content-center d-flex flex-column p-5 text-muted">
+      <div className="container text-center justify-content-center d-flex flex-column p-5 text-muted h100">
         <div className="row my-5">
+          <h1 className="display-1  p-5 text-dark"> Camilo Arriagada Vallejos</h1>
           <div className="col">
-            <h1 className="display-1  p-5 text-dark"> Camilo Arriagada Vallejos</h1>
             <h2><i> Full Stack Web Developer </i> </h2>
-          </div>
+            </div>
           <div>
             <div>
               <br />
@@ -39,12 +39,12 @@ export const Home = () => {
               <hr style={{ color: "#FFFAFA" }} />
               <div class=""></div>
               <a
-                className="animate__animated animate__fadeIn"
                 rel="noreferrer"
                 href="https://www.linkedin.com/in/camilo-arriagada-vallejos-9754b9229/"
                 target="_blank"
               >
                 <img
+                className="mt-5 animate__animated animate__fadeIn" 
                   alt="linkedin"
                   src={Linkedin}
                   width="100px"
@@ -52,15 +52,14 @@ export const Home = () => {
                 />
               </a>
               <a
-                className="animate__animated animate__fadeIn"
+             
+     
                 rel="noreferrer"
                 href="https://github.com/c4miloarriagada/"
                 target="_blank"
               >
-                <img alt="github" src={GitHub} width="100px" height="90px" />
+                <img className="mt-5 animate__animated animate__fadeIn" alt="github" src={GitHub} width="100px" height="90px" />
               </a>
-              <br />
-              <br />
               <br />
               <br />
               <br />

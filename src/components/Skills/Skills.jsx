@@ -113,9 +113,9 @@ export const Skills = () => {
     <div>
       <div>
         <NavbarLink />
-        <div className="container d-flex justify-content-center align-items-center">
-          <div className="row ">
-            <h1 className="text-center mt-3 display-4 ">Skills</h1>
+        <div className="container d-flex justify-content-center align-items-center h-100">
+          <div className="row container mt-4">
+            <h1 className="text-center mt-3 display-4 text-dark text-dark">Skills</h1>
             <hr />
 
             {skills.map((e) => (
@@ -125,10 +125,10 @@ export const Skills = () => {
                 </div>
               </div>
             ))}
-            <h2 className="text-center mt-5 display-4 ">Soft Skills </h2>
+            <h2 className="text-center mt-4 display-4 text-dark">Soft Skills </h2>
             <hr />
             {softSkills.map((e) => (
-              <div className="col-sm-2">
+              <div className="col-sm-2 mt-3">
                 <div >
                   <Logos key={e.id} name={e.name}img={e.img} skill={e.skill} />
                 </div>
@@ -139,8 +139,8 @@ export const Skills = () => {
       </div>
       <br />
       <br />
-      <br />
-      <br />
+   
+     
     </div>
   );
 };
