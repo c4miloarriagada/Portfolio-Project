@@ -28,7 +28,7 @@ export const Skills = () => {
     {
       id: 5,
       name: "ReactJs",
-      img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1656990099/logosportfolio/React-icon.svg_wbpfw0.png",
+      img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1657299367/logosportfolio/React-icon.svg_crkj25.png",
     },
     {
       id: 6,
