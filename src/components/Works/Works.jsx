@@ -5,16 +5,13 @@ import { Typewriter } from "react-simple-typewriter";
 
 
 
-import countries from '../assets/home.png'
-import portada from '../assets/portada.jpg'
-
 export const Works = () => {
 
   const webs = [
     {
       id: 1,
       title: 'Countries App',
-      image: countries,
+      image: 'https://res.cloudinary.com/dwtkwakbc/image/upload/v1657299559/logosportfolio/home_iripgj.png',
       description: 'This website was my first project for Henry Bootcamp, consists in building an a application with React JS, Redux, Node JS, Express, PostgreSQL, Sequelize some features are searchbar , different filters , and a controlled form with JavaScript. You can check the website (for desktop only) or the repository below! ',
       urlWeb: 'https://countries-b5zm2jed2-c4miloarriagada.vercel.app/home/',
       urlRepo: 'https://github.com/c4miloarriagada/Countries'
@@ -22,7 +19,7 @@ export const Works = () => {
     {
       id: 2,
       title: 'Vinoteca Henry',
-      image: portada,
+      image: 'https://res.cloudinary.com/dwtkwakbc/image/upload/v1657299780/logosportfolio/vinoteca_x7ntix.png',
       description: 'This website is a wine e-commerce app built for our final group project for Henry Bootcamp. We use React Js, Redux, Node Js, Express, MongoDB and has the following features: Google Identity , Mercado Pago , autentication, admin dashboard, feedback, filters, controlled forms, personalized API RESTful and more!',
       urlWeb: 'https://wine-ecommercew.vercel.app/',
       urlRepo: 'https://github.com/vinoteca-ecommerce/wineEcommerce'
