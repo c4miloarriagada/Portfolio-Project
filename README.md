@@ -12,3 +12,6 @@
 <p align='center'>
       <img align="center" src="https://res.cloudinary.com/dwtkwakbc/image/upload/v1657244681/logosportfolio/homeportfolio_d74pds.png"/>
 </p>
+<p align='center'>
+      <img align="center" src="https://res.cloudinary.com/dwtkwakbc/image/upload/v1657244679/logosportfolio/skills_ou4uy3.png"/>
+</p>
