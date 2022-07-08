@@ -2,8 +2,6 @@ import React from "react";
 import { Logos } from "../Logos/Logos";
 import { NavbarLink } from "../navbar/Navbar";
 
-import style from "../Skills/Skills.module.css";
-
 export const Skills = () => {
   const skills = [
     {
@@ -78,35 +76,32 @@ export const Skills = () => {
       id: 1,
       name: " Problem Solving",
       img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1657133302/logosportfolio/problemsolving_yd9zex.png",
-  
     },
     {
       id: 2,
-      name: "Adaptation",
+      name: "Good Adaptation",
       img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1657133212/logosportfolio/adaptado_stgq3s.png",
-  
     },
     {
       id: 3,
       name: "Team Work",
       img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1657133241/logosportfolio/cooperacion_ciy4vs.png",
-
     },
     {
       id: 4,
-      name: 'Communication',
-      img: 'https://res.cloudinary.com/dwtkwakbc/image/upload/v1657132915/logosportfolio/comunicacion_mjoi4b.png'
+      name: "Nice Communication",
+      img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1657132915/logosportfolio/comunicacion_mjoi4b.png",
     },
     {
       id: 5,
-      name: 'Positive Attitude',
-      img: 'https://res.cloudinary.com/dwtkwakbc/image/upload/v1657133357/logosportfolio/simpatico_d08uwz.png'
+      name: "Positive Attitude",
+      img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1657133357/logosportfolio/simpatico_d08uwz.png",
     },
     {
       id: 6,
-      name: 'Time Management',
-      img: 'https://res.cloudinary.com/dwtkwakbc/image/upload/v1657133885/logosportfolio/despertador_juwtsr.png'
-    }
+      name: "Time Management",
+      img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1657133885/logosportfolio/despertador_juwtsr.png",
+    },
   ];
 
   return (
@@ -114,9 +109,11 @@ export const Skills = () => {
       <div>
         <NavbarLink />
         <div className="container d-flex justify-content-center align-items-center h-100">
-          <div className="row container mt-4">
-            <h1 className="text-center mt-3 display-4 text-dark text-dark">Skills</h1>
-            <hr />
+          <div className="row container mt-2">
+            <h1 className="text-center mt-3 display-5 text-dark text-white">
+              Skills
+            </h1>
+            <hr className="text-white" size="5" />
 
             {skills.map((e) => (
               <div className="col-sm-2">
@@ -125,12 +122,14 @@ export const Skills = () => {
                 </div>
               </div>
             ))}
-            <h2 className="text-center mt-4 display-4 text-dark">Soft Skills </h2>
-            <hr />
+            <h2 className="text-center mt-4 display-5 text-white">
+              Soft Skills{" "}
+            </h2>
+            <hr className="text-white" size="5" />
             {softSkills.map((e) => (
-              <div className="col-sm-2 mt-3">
-                <div >
-                  <Logos key={e.id} name={e.name}img={e.img} skill={e.skill} />
+              <div className="col-sm-2 mt-5">
+                <div>
+                  <Logos key={e.id} name={e.name} img={e.img} skill={e.skill} />
                 </div>
               </div>
             ))}
@@ -139,8 +138,6 @@ export const Skills = () => {
       </div>
       <br />
       <br />
-   
-     
     </div>
   );
 };

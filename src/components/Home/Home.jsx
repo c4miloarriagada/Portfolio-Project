@@ -1,20 +1,12 @@
 import React from "react";
 import { NavbarLink } from "../navbar/Navbar";
 
-import { Container, Overlay } from "react-bootstrap";
+
 import Linkedin from "../assets/Linkedin.png";
 import GitHub from "../assets/GitHub.png";
-import style from "../Home/Home.module.css";
+
 
 export const Home = () => {
-  //css
-  const styles = {
-    color: "#FFFAFA",
-    position: "relative",
-  };
-  const pStyle = {
-    color: "#FFFAFA",
-  };
   return (
     <div >
       <NavbarLink />
@@ -22,7 +14,7 @@ export const Home = () => {
         <div className="row my-5">
           <h1 className="display-1  p-5 text-dark"> Camilo Arriagada Vallejos</h1>
           <div className="col">
-            <h2><i> Full Stack Web Developer </i> </h2>
+            <h2><i> Full Stack Web Developer</i></h2>
             </div>
           <div>
             <div>
@@ -36,7 +28,7 @@ export const Home = () => {
 
               <br />
               <br />
-              <hr style={{ color: "#FFFAFA" }} />
+              <hr className="text-white" size="5"/>
               <div class=""></div>
               <a
                 rel="noreferrer"
@@ -44,20 +36,20 @@ export const Home = () => {
                 target="_blank"
               >
                 <img
-                className="mt-5 animate__animated animate__fadeIn" 
+                className="mt-5  animate__animated animate__fadeIn" 
                   alt="linkedin"
                   src={Linkedin}
                   width="100px"
                   height="90px"
                 />
               </a>
+                {' '}
               <a
-             
-     
                 rel="noreferrer"
                 href="https://github.com/c4miloarriagada/"
                 target="_blank"
-              >
+              > 
+              
                 <img className="mt-5 animate__animated animate__fadeIn" alt="github" src={GitHub} width="100px" height="90px" />
               </a>
               <br />

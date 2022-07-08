@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Logos = ({ name, img,skill }) => {
+export const Logos = ({ name, img }) => {
   return (
 <div className="container-fluid">
 

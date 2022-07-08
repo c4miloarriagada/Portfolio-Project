@@ -14,7 +14,7 @@ export const Works = () => {
       id: 1,
       title: 'Countries App',
       image: countries,
-      description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores totam, fuga facere quisquam corrupti quidem beatae omnis repellat eaque, accusamus laborum aspernatur vel cum esse quod ratione hic possimus quas!',
+      description: 'This website was my first project for Henry Bootcamp, consist in built an a application with React JS, Redux, Node JS, Express, PostgreSQL, Sequelize some features are searchbar , different filters , and a controlled form with JavaScript. You can check the website (for desktop only) or the repository below! ',
       urlWeb: 'https://countries-b5zm2jed2-c4miloarriagada.vercel.app/home/',
       urlRepo: 'https://github.com/c4miloarriagada/Countries'
     },
@@ -22,7 +22,7 @@ export const Works = () => {
       id: 2,
       title: 'Vinoteca Henry',
       image: portada,
-      description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores totam, fuga facere quisquam corrupti quidem beatae omnis repellat eaque, accusamus laborum aspernatur vel cum esse quod ratione hic possimus quas!',
+      description: 'This website is a wine e-commerce app built for our final group project for Henry Bootcamp. We use React Js, Redux, Node Js, Express, MongoDB and has the following features: Google Identity , Mercado Pago , autentication, admin dashboard, feedback, filters, controlled forms, personalized API RESTful and more!',
       urlWeb: 'https://wine-ecommercew.vercel.app/',
       urlRepo: 'https://github.com/vinoteca-ecommerce/wineEcommerce'
     }
@@ -34,7 +34,8 @@ export const Works = () => {
         <NavbarLink/>
         <div className="container d-flex justify-content-center align-items-center h-100 mt-4">
         <div className="row container mt-5">
-          <h1 className="text-center mt- display-3 text-dark">Projects</h1>
+          <h1 className="text-center mt- display-5 text-white">Projects</h1>
+          <hr className="text-white" size="5"/>
         { 
         webs.map(e => (
           <div className="col-md-6 mt-5" key={e.id}>
@@ -51,11 +52,9 @@ export const Works = () => {
         </div>
       </div>
       <br />
-      <div className="mt-3">
+      <div className="mt-1">
               <br />
-              <br />
-              <br />
-              <br />  
+              <br /> 
               <br />           
       </div>
       </div>
