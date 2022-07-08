@@ -7,3 +7,11 @@
  <th><img align="center" alt="react" width="40" height="40" src="https://user-images.githubusercontent.com/86882630/173864477-2a2ede98-60c3-4002-9ef0-24a6161c70b4.svg"/>
  <th><img align="center"alt="css" width="40" height="40" src="https://user-images.githubusercontent.com/86882630/173864635-2c02e6a7-1409-45a9-b92f-e81729e93721.svg"/>
 </tr>
+
+
+<p align='center'>
+      <img align="center" src="https://res.cloudinary.com/dwtkwakbc/image/upload/v1657244681/logosportfolio/homeportfolio_d74pds.png"/>
+</p>
+<p align='center'>
+      <img align="center" src="https://res.cloudinary.com/dwtkwakbc/image/upload/v1657244679/logosportfolio/skills_ou4uy3.png"/>
+</p>
