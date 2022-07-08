@@ -1,6 +1,7 @@
 import React from "react";
 import { NavbarLink } from "../navbar/Navbar";
 import { Card } from "../Card/Card.jsx";
+import { Typewriter } from "react-simple-typewriter";
 
 
 
@@ -14,7 +15,7 @@ export const Works = () => {
       id: 1,
       title: 'Countries App',
       image: countries,
-      description: 'This website was my first project for Henry Bootcamp, consist in built an a application with React JS, Redux, Node JS, Express, PostgreSQL, Sequelize some features are searchbar , different filters , and a controlled form with JavaScript. You can check the website (for desktop only) or the repository below! ',
+      description: 'This website was my first project for Henry Bootcamp, consists in building an a application with React JS, Redux, Node JS, Express, PostgreSQL, Sequelize some features are searchbar , different filters , and a controlled form with JavaScript. You can check the website (for desktop only) or the repository below! ',
       urlWeb: 'https://countries-b5zm2jed2-c4miloarriagada.vercel.app/home/',
       urlRepo: 'https://github.com/c4miloarriagada/Countries'
     },
@@ -34,7 +35,7 @@ export const Works = () => {
         <NavbarLink/>
         <div className="container d-flex justify-content-center align-items-center h-100 mt-4">
         <div className="row container mt-5">
-          <h1 className="text-center mt- display-5 text-white">Projects</h1>
+          <h1 className="text-center display-5 text-white"><Typewriter words={['Projects']}/></h1>
           <hr className="text-white" size="5"/>
         { 
         webs.map(e => (

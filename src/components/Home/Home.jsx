@@ -1,5 +1,7 @@
 import React from "react";
 import { NavbarLink } from "../navbar/Navbar";
+import { Typewriter } from "react-simple-typewriter";
+
 
 
 import Linkedin from "../assets/Linkedin.png";
@@ -10,9 +12,9 @@ export const Home = () => {
   return (
     <div >
       <NavbarLink />
-      <div className="container text-center justify-content-center d-flex flex-column p-5 text-muted h100">
+      <div className="container text-center justify-content-center d-flex flex-column text-white p-5 h100">
         <div className="row my-5">
-          <h1 className="display-1  p-5 text-dark"> Camilo Arriagada Vallejos</h1>
+          <h1 className="display-1  p-5 text-dark"><Typewriter words={['Camilo Arriagada Vallejos']}/> </h1>
           <div className="col">
             <h2><i> Full Stack Web Developer</i></h2>
             </div>
@@ -21,7 +23,7 @@ export const Home = () => {
               <br />
               <div>
                 <h3 className="mt-5 ">
-                  Welcome to my portfolio i will show you all my projects and tell you about me and
+                  Welcome to my portfolio, here I will show you all my projects and tell you about me and
                   my previous professional experience.
                 </h3>
               </div>

@@ -1,13 +1,14 @@
 import React from "react";
 import { Logos } from "../Logos/Logos";
 import { NavbarLink } from "../navbar/Navbar";
+import { Typewriter } from "react-simple-typewriter";
 
 export const Skills = () => {
   const skills = [
     {
       id: 1,
       name: "JavaScript",
-      img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1656988325/logosportfolio/descarga_xrfvaz.png",
+      img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1657295109/logosportfolio/Unofficial_JavaScript_logo_2_qysv3i.svg",
     },
     {
       id: 2,
@@ -75,32 +76,32 @@ export const Skills = () => {
     {
       id: 1,
       name: " Problem Solving",
-      img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1657133302/logosportfolio/problemsolving_yd9zex.png",
+      img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1657293912/logosportfolio/extension-puzzle-outline_l5eaqx.svg",
     },
     {
       id: 2,
-      name: "Good Adaptation",
-      img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1657133212/logosportfolio/adaptado_stgq3s.png",
+      name: "Adaptation",
+      img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1657293951/logosportfolio/git-compare-outline_a9xshz.svg",
     },
     {
       id: 3,
       name: "Team Work",
-      img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1657133241/logosportfolio/cooperacion_ciy4vs.png",
+      img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1657293899/logosportfolio/people-outline_mdybqz.svg",
     },
     {
       id: 4,
-      name: "Nice Communication",
-      img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1657132915/logosportfolio/comunicacion_mjoi4b.png",
+      name: "Communication",
+      img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1657293926/logosportfolio/chatbubbles-outline_ea6fbp.svg",
     },
     {
       id: 5,
       name: "Positive Attitude",
-      img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1657133357/logosportfolio/simpatico_d08uwz.png",
+      img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1657293948/logosportfolio/happy-outline_bu5n4n.svg",
     },
     {
       id: 6,
       name: "Time Management",
-      img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1657133885/logosportfolio/despertador_juwtsr.png",
+      img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1657293946/logosportfolio/hourglass-outline_if8lwp.svg",
     },
   ];
 
@@ -111,23 +112,22 @@ export const Skills = () => {
         <div className="container d-flex justify-content-center align-items-center h-100">
           <div className="row container mt-2">
             <h1 className="text-center mt-3 display-5 text-dark text-white">
-              Skills
+              <Typewriter words={['Skills']}/>
             </h1>
             <hr className="text-white" size="5" />
-
             {skills.map((e) => (
-              <div className="col-sm-2">
+              <div className="col-md-3">
                 <div>
                   <Logos key={e.id} img={e.img} />
                 </div>
               </div>
             ))}
             <h2 className="text-center mt-4 display-5 text-white">
-              Soft Skills{" "}
+            <Typewriter words={['Soft Skills']}/>{" "}
             </h2>
             <hr className="text-white" size="5" />
             {softSkills.map((e) => (
-              <div className="col-sm-2 mt-5">
+              <div className="col-md-3 mt-5">
                 <div>
                   <Logos key={e.id} name={e.name} img={e.img} skill={e.skill} />
                 </div>
