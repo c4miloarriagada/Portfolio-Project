@@ -8,6 +8,7 @@ export const Works = () => {
 
   const handleButton = () => {
     setTranslate(!translate);
+    scroll(0,0)
   };
 
   const webs = [

@@ -3,12 +3,17 @@ import { NavbarLink } from "../navbar/Navbar";
 import { Typewriter } from "react-simple-typewriter";
 
 
+
 export const About = () => {
 
   const [translate, setTranslate] = useState(false);
 
+  
+
+
   const handleButton = ()=>{
     setTranslate(!translate)
+    scroll(0,0)
   };
 
   return (

@@ -43,7 +43,7 @@ export const Home = () => {
                 <div className="position-relative"> 
                </div>
                <h3 className="mt-5 ">
-                Bienvenido a mi portafolio, aquí te mostraré todos mis proyectos y te contare un poco sobre mi y mi experiencia profesional.
+                Bienvenido a mi portafolio, aquí te mostraré todos mis proyectos y te contare un poco sobre mí y mi experiencia profesional.
                </h3>
                <button type="button" onClick={(e)=>handleButton()} class="btn btn-outline-secondary mt-5 text-white">EN</button>
              </div>}
