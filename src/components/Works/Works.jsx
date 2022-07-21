@@ -38,7 +38,7 @@ export const Works = () => {
       id:3,
       title: 'Alkemy Project Full Stack',
       image: 'https://res.cloudinary.com/dwtkwakbc/image/upload/v1658268165/Alkemy-project/homeFill_b5fdma.png',
-      description: 'Project for apply to Alkemy.org , is a full stack project that consist in a application to management your deposits or withdraws  to bring the control of your finances, the back end was built on TypeScript, Node Js, Express, Postgres, JWT autentication and the front with React Js, Redux and React-Bootsrap',
+      description: 'Project for apply to Alkemy.org , is a full stack project that consist in a application to management your deposits or withdraws  to bring the control of your finances, the back end was built on TypeScript, Node Js, Express, PostgreSQL, JWT autentication and the front with React Js, Redux and React-Bootsrap',
       urlRepo: 'https://github.com/c4miloarriagada/Alkemy-Project'
     }
   ];
@@ -68,7 +68,7 @@ export const Works = () => {
       id:3,
       title: 'Proyecto Alkemy Full Stack',
       image: 'https://res.cloudinary.com/dwtkwakbc/image/upload/v1658268165/Alkemy-project/homeFill_b5fdma.png',
-      description: `Aplicación para postular a Alkemy.org, fue el proyecto full stack que consiste en una aplicación para control y gestión de tus registros financieros, pudiendo ingresar o retirar dinero manteniendo así un control. Hice el back end con Node Js, Express, Postgres, autenticación JWT y el front con React Js, Redux y React-Bootstrap`,
+      description: `Aplicación para postular a Alkemy.org, fue el proyecto full stack que consiste en una aplicación para control y gestión de tus registros financieros, pudiendo ingresar o retirar dinero manteniendo así un control. Hice el back end con Node Js, Express, PostgreSQL, autenticación JWT y el front con React Js, Redux y React-Bootstrap`,
       urlRepo: 'https://github.com/c4miloarriagada/Alkemy-Project'
     }
   ];
