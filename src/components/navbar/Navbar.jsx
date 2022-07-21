@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 export const NavbarLink = () => {
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" bg="secondary">
+      <Navbar collapseOnSelect expand="lg" bg="dark">
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
-          style={{ color: "#FFFAFA" }}
+          style={{ color: "#f1b7d1" }}
         />
         <Navbar.Collapse className="justify-content-center text-center">
           <Nav>

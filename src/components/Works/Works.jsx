@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import { NavbarLink } from "../navbar/Navbar";
 import { Card } from "../Card/Card.jsx";
 import { Typewriter } from "react-simple-typewriter";
+import { useEffect } from "react";
 
 export const Works = () => {
   const [translate, setTranslate] = useState(false);
+
 
   const handleButton = () => {
     setTranslate(!translate);
@@ -32,6 +34,13 @@ export const Works = () => {
       urlWeb: "https://wine-ecommercew.vercel.app/",
       urlRepo: "https://github.com/vinoteca-ecommerce/wineEcommerce",
     },
+    {
+      id:3,
+      title: 'Alkemy Project Full Stack',
+      image: 'https://res.cloudinary.com/dwtkwakbc/image/upload/v1658268165/Alkemy-project/homeFill_b5fdma.png',
+      description: 'Project for apply to Alkemy.org , is a full stack project that consist in a application to management your deposits or withdraws  to bring the control of your finances, the back end was built on TypeScript, Node Js, Express, Postgres, JWT autentication and the front with React Js, Redux and React-Bootsrap',
+      urlRepo: 'https://github.com/c4miloarriagada/Alkemy-Project'
+    }
   ];
 
   const websSpanish = [
@@ -55,6 +64,13 @@ export const Works = () => {
       urlWeb: "https://wine-ecommercew.vercel.app/",
       urlRepo: "https://github.com/vinoteca-ecommerce/wineEcommerce",
     },
+    {
+      id:3,
+      title: 'Proyecto Alkemy Full Stack',
+      image: 'https://res.cloudinary.com/dwtkwakbc/image/upload/v1658268165/Alkemy-project/homeFill_b5fdma.png',
+      description: `Aplicación para postular a Alkemy.org, fue el proyecto full stack que consiste en una aplicación para control y gestión de tus registros financieros, pudiendo ingresar o retirar dinero manteniendo así un control. Hice el back end con Node Js, Express, Postgres, autenticación JWT y el front con React Js, Redux y React-Bootstrap`,
+      urlRepo: 'https://github.com/c4miloarriagada/Alkemy-Project'
+    }
   ];
 
   return (
@@ -98,9 +114,9 @@ export const Works = () => {
         <div>
           <div className="container d-flex justify-content-center align-items-center h-100 mt-4">
             <div className="row container mt-5">
-              <h1 className="text-center display-5 text-white">
-                Proyectos
-              </h1>
+              <h2 className="text-center display-5 text-white">
+              <Typewriter words={["Proyectos"]} />
+              </h2>
               <hr className="text-white" size="5" />
               {websSpanish.map((e) => (
                 <div className="col-md-6 mt-3" key={e.id}>

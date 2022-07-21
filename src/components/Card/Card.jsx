@@ -18,7 +18,7 @@ export const Card = ({title, imgSource ,description, linkWeb, linkRepo}) => {
             <p className='card-text text-white'>{description}</p>
             <a href={linkWeb} className='btn btn btn-outline-light' target='_blank'>Website</a>
             {' '}
-            <a href={linkRepo} className='btn btn btn-outline-light'  target='_blank'>Repository</a>
+            <a href={linkRepo} className='btn btn btn-outline-light'   target='_blank'>Repository</a>
         </div>
     </div>
     </div>

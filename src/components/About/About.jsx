@@ -61,7 +61,7 @@ export const About = () => {
       </div>
     </div> : <div className="container d-flex justify-content-center align-items-center h-100">
         <div class="row mt-5">  
-        <h1 className="text-center mt-3 display-5 text-white ">Sobre mí</h1>
+        <h2 className="text-center mt-3 display-5 text-white "><Typewriter words={['Sobre mí']}/></h2>
         <hr className='text-white' size="5"/>
         <div className="col text-center text-white" >
          <div className="card bg-secondary container mt-1 animate__animated animate__fadeIn">

@@ -35,11 +35,11 @@ export const Skills = () => {
       name: "Redux",
       img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1656988837/logosportfolio/5848309bcef1014c0b5e4a9a_2_sc6zz3.png",
     },
-    {
-      id: 7,
-      name: "Aws",
-      img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1657048874/logosportfolio/amazon-web-services-2_nhlnbo.svg",
-    },
+    // {
+    //   id: 7,
+    //   name: "Aws",
+    //   img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1657048874/logosportfolio/amazon-web-services-2_nhlnbo.svg",
+    // },
     {
       id: 8,
       name: "MongoDB",
