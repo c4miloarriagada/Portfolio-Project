@@ -106,10 +106,10 @@ export const Skills = () => {
   ];
 
   return (
-    <div>
-      <div>
+    <div >
+      <div >
         <NavbarLink />
-        <div className="container d-flex justify-content-center align-items-center h-100">
+        <div className=" container d-flex justify-content-center align-items-center h-100 ">
           <div className="row container mt-2">
             <h1 className="text-center mt-3 display-5 text-dark text-white">
               <Typewriter words={['Skills']}/>

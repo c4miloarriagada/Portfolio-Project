@@ -20,7 +20,7 @@ export const Home = () => {
   return (
     <div >
       <NavbarLink /> 
-      <div className="container text-center justify-content-center d-flex flex-column text-white p-5 h100">
+      <div className="container text-center justify-content-center d-flex flex-column text-white p-5 h100 ">
         <div className="row my-5">
           
           <h1 className="display-1  p-5 text-dark"><Typewriter words={['Camilo Arriagada Vallejos']}/> </h1>

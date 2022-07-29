@@ -2,6 +2,8 @@ import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
+import './Navbar.module.css'
+
 export const NavbarLink = () => {
   return (
     <div>
@@ -11,11 +13,13 @@ export const NavbarLink = () => {
           style={{ color: "#f1b7d1" }}
         />
         <Navbar.Collapse className="justify-content-center text-center">
-          <Nav>
+          <Nav >
             <Nav.Link
               as={Link}
               to={"/"}
-              style={{ fontSize: "1.6rem", color: "#f1b7d1" }}
+              style={{ fontSize: "1.6rem", color: "#f1b7d1"}}
+              
+              
             >
               Home
             </Nav.Link>
