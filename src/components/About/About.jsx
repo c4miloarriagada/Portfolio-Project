@@ -19,15 +19,15 @@ export const About = () => {
   return (
    
       
-      <div> 
+      <div className="background">  
         <NavbarLink />  
         {!translate ? 
-        <div className="container d-flex justify-content-center align-items-center h-100">
-        <div class="row mt-5">  
-        <h1 className="text-center mt-3 display-5 text-white "><Typewriter words={['About me']}/></h1>
-        <hr className='text-white' size="5"/>
+        <div className="container d-flex justify-content-center align-items-center ">
+        <div class="row mt-1">  
+        <h1 className="text-center mt-3 display-5  "><Typewriter words={['About me']}/></h1>
+        <hr  size="3"/>
         <div className="col text-center text-white" >
-         <div className="card bg-secondary container mt-5 animate__animated animate__fadeIn">
+         <div className="card bg-dark container mt-5 animate__animated animate__fadeIn">
            <h4 className=" mt-3 container " > 
             Full Stack web developer, I just finished my way through soy Henry <a href='https://www.soyhenry.com/' target="_blank" rel="noreferrer" text='go to soyHenry'><img width="25" height="25" src='https://user-images.githubusercontent.com/86882630/174009890-4daeb2e8-054f-49b5-909f-67789a6b6e03.jpeg'/></a>{' '}
             bootcamp and I think that was a amazing experience , 
@@ -45,7 +45,7 @@ export const About = () => {
         <div className="row mt-4">
         <div className="col text-center text-white mt-2">
               <div>
-            <button type="button" onClick={(e)=>handleButton()} className="btn btn-outline-secondary mt-5 text-white">ES</button>
+            <button type="button" onClick={(e)=>handleButton()} className="btn btn-outline-dark mt-5 text-white">ES</button>
               <address className="mt-3">
                 <a className= "text-info text-decoration-none" href="mailto:camilo.arriagadav@gmail.com">
                   {" "}
@@ -54,17 +54,18 @@ export const About = () => {
                <p className="text-white mt-4">
                 &copy; Camilo Arriagada Vallejos
               </p>
+              <br/>
               </address>
               </div>
         </div>
         </div>
       </div>
-    </div> : <div className="container d-flex justify-content-center align-items-center h-100">
-        <div class="row mt-5">  
-        <h2 className="text-center mt-3 display-5 text-white "><Typewriter words={['Sobre mí']}/></h2>
-        <hr className='text-white' size="5"/>
+    </div> : <div className="container d-flex justify-content-center align-items-center">
+        <div class="row mt-3">  
+        <h2 className="text-center display-5  "><Typewriter words={['Sobre mí']}/></h2>
+        <hr  size="3"/>
         <div className="col text-center text-white" >
-         <div className="card bg-secondary container mt-1 animate__animated animate__fadeIn">
+         <div className="card bg-dark container mt-1 animate__animated animate__fadeIn">
            <h4 className=" mt-3 container " > 
            Desarrollador web full stack, acabo de terminar mi paso por el bootcamp soy Henry <a href='https://www.soyhenry.com/' target="_blank" rel="noreferrer" text='go to soyHenry'><img width="25" height="25" src='https://user-images.githubusercontent.com/86882630/174009890-4daeb2e8-054f-49b5-909f-67789a6b6e03.jpeg'/></a>{' '}
             y me pareció una excelente experiencia.
@@ -83,7 +84,7 @@ export const About = () => {
         <div className="row mt-4">
         <div className="col text-center text-white mt-2">
               <div>
-            <button type="button" onClick={(e)=>handleButton()} className="btn btn-outline-secondary mt-5 text-white">EN</button>
+            <button type="button" onClick={(e)=>handleButton()} className="btn btn-outline-dark mt-5 text-white">EN</button>
               <address className="mt-3">
                 <a className= "text-info text-decoration-none" href="mailto:camilo.arriagadav@gmail.com">
                   {" "}
@@ -93,6 +94,8 @@ export const About = () => {
                 &copy; Camilo Arriagada Vallejos
               </p>
               </address>
+              <br/>
+              <br/>
               </div>
         </div>
         </div>

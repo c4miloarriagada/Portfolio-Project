@@ -79,11 +79,11 @@ export const Works = () => {
       {!translate ? (
         <div>
           <div className="container d-flex justify-content-center align-items-center h-100 mt-4">
-            <div className="row container mt-5">
-              <h1 className="text-center display-5 text-white">
+            <div className="row container">
+              <h1 className="text-center display-5">
                 <Typewriter words={["Projects"]} />
               </h1>
-              <hr className="text-white" size="5" />
+              <hr size="3" />
               {webs.map((e) => (
                 <div className="col-md-6 mt-3" key={e.id}>
                   <Card
@@ -101,7 +101,7 @@ export const Works = () => {
             <button
               type="button"
               onClick={(e) => handleButton()}
-              className="btn btn-outline-secondary mt-5 text-white"
+              className="btn btn-outline-dark mt-5 text-white"
             >
               ES
             </button>
@@ -113,11 +113,11 @@ export const Works = () => {
       ) : (
         <div>
           <div className="container d-flex justify-content-center align-items-center h-100 mt-4">
-            <div className="row container mt-5">
-              <h2 className="text-center display-5 text-white">
+            <div className="row container ">
+              <h2 className="text-center display-5 ">
               <Typewriter words={["Proyectos"]} />
               </h2>
-              <hr className="text-white" size="5" />
+              <hr  size="3" />
               {websSpanish.map((e) => (
                 <div className="col-md-6 mt-3" key={e.id}>
                   <Card
@@ -135,7 +135,7 @@ export const Works = () => {
             <button
               type="button"
               onClick={(e) => handleButton()}
-              className="btn btn-outline-secondary mt-5 text-white"
+              className="btn btn-outline-dark mt-5 text-white"
             >
               EN
             </button>

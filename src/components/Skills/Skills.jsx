@@ -2,6 +2,7 @@ import React from "react";
 import { Logos } from "../Logos/Logos";
 import { NavbarLink } from "../navbar/Navbar";
 import { Typewriter } from "react-simple-typewriter";
+import { Container } from "react-bootstrap";
 
 export const Skills = () => {
   const skills = [
@@ -103,18 +104,25 @@ export const Skills = () => {
       name: "Time Management",
       img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1657293946/logosportfolio/hourglass-outline_if8lwp.svg",
     },
+    {
+      id: 7,
+      name: 'Continuous Learning',
+      img: 'https://res.cloudinary.com/dwtkwakbc/image/upload/v1659126221/logosportfolio/leyendo_nscqon.png'
+    }
   ];
 
   return (
-    <div >
-      <div >
+    <div className="background">
+      <div>
         <NavbarLink />
-        <div className=" container d-flex justify-content-center align-items-center h-100 ">
-          <div className="row container mt-2">
-            <h1 className="text-center mt-3 display-5 text-dark text-white">
+        <div >
+       
+        <div className=" container d-flex justify-content-center align-items-center ">
+          <div className="row container">
+            <h1 className="text-center mt-3 display-5 text-dark ">
               <Typewriter words={['Skills']}/>
             </h1>
-            <hr className="text-white" size="5" />
+            <hr size="3" />
             {skills.map((e) => (
               <div className="col-md-3">
                 <div>
@@ -122,18 +130,20 @@ export const Skills = () => {
                 </div>
               </div>
             ))}
-            <h2 className="text-center mt-4 display-5 text-white">
+            <h2 className="text-center mt-4 display-5">
             <Typewriter words={['Soft Skills']}/>{" "}
             </h2>
-            <hr className="text-white" size="5" />
+            <hr  size="3" />
             {softSkills.map((e) => (
-              <div className="col-md-3 mt-5">
+              <div className="col-md-3 ">
                 <div>
                   <Logos key={e.id} name={e.name} img={e.img} skill={e.skill} />
                 </div>
               </div>
             ))}
           </div>
+        </div>
+           
         </div>
       </div>
       <br />

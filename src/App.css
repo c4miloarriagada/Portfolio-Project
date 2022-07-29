@@ -1,8 +1,12 @@
 .App {
   font-family: "Poppins", sans-serif;
-
   height: 100;
-  background: rgb(241,183,209);
-  background: linear-gradient(180deg, rgba(241,183,209,1) 18%, rgba(162,182,231,1) 38%, rgba(127,171,223,1) 60%, rgba(108,146,193,1) 80%);
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
+}
 
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .background {
+    height: 100vh !important;
+  
+  }
 }
