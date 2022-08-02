@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import { Home } from './components/Home/Home';
 import { Skills } from "./components/Skills/Skills";
 import { About } from "./components/About/About";
@@ -16,10 +16,10 @@ function App() {
       <div className="App">
           <Routes>
             <Route  path="/" element={<Home />} />
-            <Route path='/about' element={<About/>}/>
-            <Route path='/skills' element={<Skills/>}/>
-            <Route  path="/works" element={<Works/>}/>
-            <Route  path="*" element={<Home/>}/>
+            <Route path='about' element={<About/>}/>
+            <Route path='skills' element={<Skills/>}/>
+            <Route  path="works" element={<Works/>}/>
+            <Route  path="/*" element={<Navigate to='/'/>}/>
           </Routes>
       </div>
     </div>
