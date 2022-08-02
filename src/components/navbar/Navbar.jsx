@@ -2,7 +2,7 @@ import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-import './Navbar.module.css'
+import styles from './Navbar.module.css'
 
 export const NavbarLink = () => {
   return (
@@ -18,8 +18,7 @@ export const NavbarLink = () => {
               as={Link}
               to={"/"}
               style={{ fontSize: "1.6rem", color: "#ffd143"}}
-              className='nav-link-active'
-              
+              className={styles.link}
             >
               Home
             </Nav.Link>
@@ -27,6 +26,7 @@ export const NavbarLink = () => {
               as={Link}
               to={"/about"}
               style={{ fontSize: "1.6rem", color: "#ffd143" }}
+              className={styles.link}
             >
               About
             </Nav.Link>
@@ -34,6 +34,7 @@ export const NavbarLink = () => {
               as={Link}
               to={"/works"}
               style={{ fontSize: "1.6rem", color: "#ffd143" }}
+              className={styles.link}
             >
               Works
             </Nav.Link>
@@ -41,6 +42,7 @@ export const NavbarLink = () => {
               as={Link}
               to={"/skills"}
               style={{ fontSize: "1.6rem", color: "#ffd143" }}
+              className={styles.link}
             >
               Skills
             </Nav.Link>

@@ -48,13 +48,14 @@ export const Home = () => {
                <button type="button" onClick={handleButton} class="btn btn btn-outline-dark mt-5">EN</button>
              </div>}
               <hr  size="3"/>
+              <div className="mt-5"> 
               <a
                 rel="noreferrer"
                 href="https://www.linkedin.com/in/camilo-arriagada-vallejos-9754b9229/"
                 target="_blank"
               >
                 <img
-                className="mt-5  animate__animated animate__fadeIn" 
+                className="animate__animated animate__fadeIn" 
                   alt="linkedin"
                   src={Linkedin}
                   width="100px"
@@ -66,14 +67,15 @@ export const Home = () => {
                 rel="noreferrer"
                 href="https://github.com/c4miloarriagada/"
                 target="_blank"
+            
               > 
               
-              <img className="mt-5 animate__animated animate__fadeIn" alt="github" src={GitHub} width="100px" height="90px" />
+              <img className="animate__animated animate__fadeIn" alt="github" src={GitHub} width="100px" height="90px" />
               </a>
+              </div>   
               <br />
               <br />
               <br />
-              <br/>
             </div>
           </div>
         </div>
