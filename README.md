@@ -14,12 +14,12 @@
       <img align="center" src="https://res.cloudinary.com/dwtkwakbc/image/upload/v1659130983/logosportfolio/homeportfolio_zqbyrs.png"/>
 </p>
 <p align='center'>
-      <img align="center" src="https://res.cloudinary.com/dwtkwakbc/image/upload/v1659130983/logosportfolio/aboutme_kfzbtw.png"/>
+      <img align="center" src="https://res.cloudinary.com/dwtkwakbc/image/upload/v1659736855/logosportfolio/aboutme_cacrhl.png"/>
 </p>
 <p align='center'>
-      <img align="center" src="https://res.cloudinary.com/dwtkwakbc/image/upload/v1659130983/logosportfolio/projects_azx2o6.png"/>
+      <img align="center" src="https://res.cloudinary.com/dwtkwakbc/image/upload/v1659736851/logosportfolio/projects_auu1rn.png"/>
 </p>
 
 <p align='center'>
-      <img align="center" src='https://res.cloudinary.com/dwtkwakbc/image/upload/v1659130984/logosportfolio/skills_ilwg2q.png'/>
+      <img align="center" src='https://res.cloudinary.com/dwtkwakbc/image/upload/v1659736853/logosportfolio/skills_tniqsz.png'/>
 </p>
