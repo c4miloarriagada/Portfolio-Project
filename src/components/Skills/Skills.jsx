@@ -2,7 +2,8 @@ import React from "react";
 import { Logos } from "../Logos/Logos";
 import { NavbarLink } from "../navbar/Navbar";
 import { Typewriter } from "react-simple-typewriter";
-import { Container } from "react-bootstrap";
+
+import "./Skills.css";
 
 export const Skills = () => {
   const skills = [
@@ -106,44 +107,47 @@ export const Skills = () => {
     },
     {
       id: 7,
-      name: 'Continuous Learning',
-      img: 'https://res.cloudinary.com/dwtkwakbc/image/upload/v1659126221/logosportfolio/leyendo_nscqon.png'
-    }
+      name: "Continuous Learning",
+      img: "https://res.cloudinary.com/dwtkwakbc/image/upload/v1659126221/logosportfolio/leyendo_nscqon.png",
+    },
   ];
 
   return (
-    <div className="background">
-      <div>
+    <div>
+      <div className="skillsbackground">
         <NavbarLink />
-        <div >
-       
-        <div className=" container d-flex justify-content-center align-items-center ">
-          <div className="row container">
-            <h1 className="text-center mt-3 display-5 text-dark ">
-              <Typewriter words={['Skills']}/>
-            </h1>
-            <hr size="3" />
-            {skills.map((e) => (
-              <div className="col-md-3">
-                <div>
-                  <Logos key={e.id} img={e.img} />
+        <div>
+          <div className=" container d-flex justify-content-center align-items-center ">
+            <div className="row container">
+              <h1 className="text-center mt-3 display-5 text-dark text-white">
+                <Typewriter words={["Skills"]} />
+              </h1>
+              <hr size="3" />
+              {skills.map((e) => (
+                <div className="col-md-3">
+                  <div>
+                    <Logos key={e.id} img={e.img} />
+                  </div>
                 </div>
-              </div>
-            ))}
-            <h2 className="text-center mt-4 display-5">
-            <Typewriter words={['Soft Skills']}/>{" "}
-            </h2>
-            <hr  size="3" />
-            {softSkills.map((e) => (
-              <div className="col-md-3 ">
-                <div>
-                  <Logos key={e.id} name={e.name} img={e.img} skill={e.skill} />
+              ))}
+              <h2 className="text-center mt-4 display-5 text-white">
+                <Typewriter words={["Soft Skills"]} />{" "}
+              </h2>
+              <hr size="3" />
+              {softSkills.map((e) => (
+                <div className="col-md-3 soft">
+                  <div>
+                    <Logos
+                      key={e.id}
+                      name={e.name}
+                      img={e.img}
+                      skill={e.skill}
+                    />
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
-           
         </div>
       </div>
       <br />

@@ -1,0 +1,92 @@
+.main-slide {
+  padding-top: 5px;
+  cursor: pointer;
+  background: rgb(40, 40, 55);
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 255, 0.2);
+  transition: all 0.2s;
+}
+
+.carousel .thumb {
+  height: 50px;
+}
+
+.carousel {
+  text-align: center;
+}
+
+.legend {
+  font-size: 20px !important;
+}
+.background {
+  height: 1000px !important;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .main-slide {
+    margin-top: 100px;
+  }
+  .legend {
+    height: 100px !important;
+    font-size: 10px !important;
+    position: absolute;
+    top: 25px;
+    opacity: 0 !important;
+  }
+  .legend:hover {
+    opacity: 1 !important;
+  }
+  .link {
+    display: inline-block;
+    position: relative;
+    top: 11px;
+    color: #ffffff !important;
+    background-color: #000000 !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .legend {
+    font-size: 11px !important;
+  }
+  .link {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .carousel {
+    margin-top: 50px;
+  }
+  .legend {
+    margin-top: 50px;
+    font-size: 16px !important;
+    opacity: 0 !important;
+  }
+  .legend:hover {
+    opacity: 1 !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .background {
+    height: 1400px !important;
+  }
+  .main-slide {
+    margin-top: 100px;
+  }
+  .link {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .carousel {
+    margin-top: 50px;
+  }
+  .legend {
+    margin-top: 50px;
+    font-size: 22px !important;
+    opacity: 0 !important;
+  }
+  .legend:hover {
+    opacity: 1 !important;
+  }
+}

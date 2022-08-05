@@ -1,0 +1,15 @@
+.aboutcard{
+    background: rgb(40, 40, 55);
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 255, .2);
+    transition: all .2s;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  .aboutbackground{
+    height: 1400px;
+
+  }
+}

@@ -7,7 +7,7 @@ import styles from './Navbar.module.css'
 export const NavbarLink = () => {
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" bg="dark">
+      <Navbar collapseOnSelect expand="md" bg="dark">
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           style={{ color: "#ffd143" }}

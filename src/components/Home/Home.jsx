@@ -4,7 +4,7 @@ import { NavbarLink } from "../navbar/Navbar";
 import { Typewriter } from "react-simple-typewriter";
 
 
-
+import './Home.css'
 import Linkedin from "../assets/Linkedin.png";
 import GitHub from "../assets/GitHub.png";
 
@@ -18,9 +18,9 @@ export const Home = () => {
   };
 
   return (
-    <div className="background" >
+    <div className="homebackground" >
       <NavbarLink /> 
-      <div className="container text-center justify-content-center d-flex flex-column  p-5 ">
+      <div className="container text-center justify-content-center d-flex flex-column  p-5 animate__animated animate__fadeIn">
         <div className="row my-5">
           
           <h1 className="display-1  p-5 text-white"><Typewriter words={['Camilo Arriagada Vallejos']}/> </h1>
@@ -55,7 +55,7 @@ export const Home = () => {
                 target="_blank"
               >
                 <img
-                className="animate__animated animate__fadeIn" 
+              
                   alt="linkedin"
                   src={Linkedin}
                   width="100px"
@@ -70,7 +70,7 @@ export const Home = () => {
             
               > 
               
-              <img className="animate__animated animate__fadeIn" alt="github" src={GitHub} width="100px" height="90px" />
+              <img  alt="github" src={GitHub} width="100px" height="90px" />
               </a>
               </div>   
               <br />
