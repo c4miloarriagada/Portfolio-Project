@@ -26,7 +26,7 @@ export const Works = () => {
               <Typewriter words={["Projects"]} />
             </h1>
             <hr size="4" />
-            <Carousel className="main-slide">
+            <Carousel className="main-slide animate__animated animate__fadeIn">
               <div>
                 <img src="https://res.cloudinary.com/dwtkwakbc/image/upload/v1657299559/logosportfolio/home_iripgj.png" />
                 <p className="legend">
@@ -114,7 +114,7 @@ export const Works = () => {
               <Typewriter words={["Proyectos"]} />
             </h2>
             <hr size="3" />
-            <Carousel className="main-slide">
+            <Carousel className="main-slide animate__animated animate__fadeIn">
               <div>
                 <img src="https://res.cloudinary.com/dwtkwakbc/image/upload/v1657299559/logosportfolio/home_iripgj.png" />
                 <p className="legend">

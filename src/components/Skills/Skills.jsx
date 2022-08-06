@@ -124,7 +124,7 @@ export const Skills = () => {
               </h1>
               <hr size="3" />
               {skills.map((e) => (
-                <div className="col-md-3">
+                <div className="col-md-3 animate__animated animate__fadeIn">
                   <div>
                     <Logos key={e.id} img={e.img} />
                   </div>
@@ -135,7 +135,7 @@ export const Skills = () => {
               </h2>
               <hr size="3" />
               {softSkills.map((e) => (
-                <div className="col-md-3 soft">
+                <div className="col-md-3 soft animate__animated animate__fadeIn">
                   <div>
                     <Logos
                       key={e.id}
