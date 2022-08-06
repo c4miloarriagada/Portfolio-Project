@@ -20,13 +20,13 @@ export const Home = () => {
       <NavbarLink />
       <div className="container text-center justify-content-center d-flex flex-column  p-5 animate__animated animate__fadeIn">
         <div className="row my-5">
-          <h1 className="display-1  p-5 text-white">
+          <h1 className="display-1  p-5 text-white title">
             <Typewriter words={["Camilo Arriagada Vallejos"]} />{" "}
           </h1>
           <div className="col">
-            <h2>
-              <i> Full Stack Web Developer</i>
-            </h2>
+            <h3>
+              <i className="hometext"> Full Stack Web Developer</i>
+            </h3>
           </div>
           <div>
             <div>
@@ -34,7 +34,7 @@ export const Home = () => {
 
               {!translate ? (
                 <div>
-                  <h3 className="mt-5 ">
+                  <h3 className="mt-5 hometext">
                     Welcome to my portfolio, here I will show you all my
                     projects and tell you about me and my previous professional
                     experience.
@@ -50,7 +50,7 @@ export const Home = () => {
               ) : (
                 <div>
                   <div className="position-relative"></div>
-                  <h3 className="mt-5 ">
+                  <h3 className="mt-5 hometext">
                     Bienvenido a mi portafolio, aquí te mostraré todos mis
                     proyectos y te contare un poco sobre mí y mi experiencia
                     profesional.

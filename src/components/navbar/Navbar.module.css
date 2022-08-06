@@ -1,7 +1,8 @@
-.link {
+/* .link {
   overflow: hidden;
   position: relative;
   display: inline-block;
+
 }
 
 .link::before,
@@ -12,8 +13,8 @@
   left: 0;
 }
 .link::before {
-  background-color: rgba(255, 209, 67, 1);
-  height: 2px;
+  background-color: #17C3B2;
+  height: 3px;
   bottom: 0;
   transform-origin: 100% 50%;
   transform: scaleX(0);
@@ -23,4 +24,22 @@
 .link:hover::before {
   transform-origin: 0% 50%;
   transform: scaleX(1);
+} */
+.active{
+  background: linear-gradient(120deg, #c06500
+  30%, #ff9800 38%, #d7761b
+  40%, #c06500 48%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  animation: load89234 2s infinite;
+  color: #ffffff !important;
+  font-style: italic;
+  border-radius: 40px 0 40px 0;
+  text-shadow: 5px 5px rgba(0, 0, 255, .2);
+
+}
+@keyframes load89234 {
+  100% {
+    background-position: -100% 0;
+  }
 }

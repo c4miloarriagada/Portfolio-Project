@@ -5,6 +5,7 @@
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 255, 0.2);
   transition: all 0.2s;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
 
 .carousel .thumb {
@@ -19,7 +20,7 @@
   font-size: 20px !important;
 }
 .background {
-  height: 1000px !important;
+  height: 1050px !important;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {

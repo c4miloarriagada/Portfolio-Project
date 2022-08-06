@@ -25,7 +25,7 @@ export const Works = () => {
             <h1 className="text-center mt-1 display-5 text-white">
               <Typewriter words={["Projects"]} />
             </h1>
-            <hr size="3" />
+            <hr size="4" />
             <Carousel className="main-slide">
               <div>
                 <img src="https://res.cloudinary.com/dwtkwakbc/image/upload/v1657299559/logosportfolio/home_iripgj.png" />
@@ -102,7 +102,7 @@ export const Works = () => {
               <button
                 type="button"
                 onClick={(e) => handleButton()}
-                className="btn btn-outline-dark mt-2"
+                className="btn btn-outline-dark mt-4"
               >
                 ES
               </button>
@@ -191,7 +191,7 @@ export const Works = () => {
               <button
                 type="button"
                 onClick={(e) => handleButton()}
-                className="btn btn-outline-dark mt-2"
+                className="btn btn-outline-dark mt-4"
               >
                 EN
               </button>

@@ -1,5 +1,6 @@
 import React from "react";
 
+import './Logos.css'
 export const Logos = ({ name, img }) => {
   return (
 <div className="Container ">

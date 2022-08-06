@@ -18,7 +18,7 @@ export const About = () => {
       {!translate ? (
         <div className="container d-flex justify-content-center align-items-center ">
           <div class="row mt-1">
-            <h1 className="text-center mt-3 display-5 text-white ">
+            <h1 className="text-center mt-3 display-5  title text-white">
               <Typewriter words={["About me"]} />
             </h1>
             <hr size="3" />

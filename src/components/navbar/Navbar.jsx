@@ -1,16 +1,26 @@
 import React from "react";
+import { useEffect } from "react";
+import { useState } from "react";
 import { Nav, Navbar } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 import styles from './Navbar.module.css'
 
 export const NavbarLink = () => {
+
+  const locate = useLocation()
+  const [ url, setUrl ] = useState(null)
+  useEffect(()=>{
+    setUrl(locate.pathname);
+  }, [locate])
+
+
+
   return (
     <div>
-      <Navbar collapseOnSelect expand="md" bg="dark">
+      <Navbar collapseOnSelect expand="md" bg="dark" className="py-0">
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
-          style={{ color: "#ffd143" }}
         />
         <Navbar.Collapse className="justify-content-center text-center">
           <Nav >
@@ -18,7 +28,7 @@ export const NavbarLink = () => {
               as={Link}
               to={"/"}
               style={{ fontSize: "1.6rem", color: "#ffd143"}}
-              className={styles.link}
+              className={(url === '/' ? styles.active :  styles.link)}
             >
               Home
             </Nav.Link>
@@ -26,7 +36,7 @@ export const NavbarLink = () => {
               as={Link}
               to={"/about"}
               style={{ fontSize: "1.6rem", color: "#ffd143" }}
-              className={styles.link}
+              className={(url === '/about' ? styles.active :  styles.link)}
             >
               About
             </Nav.Link>
@@ -34,7 +44,7 @@ export const NavbarLink = () => {
               as={Link}
               to={"/works"}
               style={{ fontSize: "1.6rem", color: "#ffd143" }}
-              className={styles.link}
+              className={(url === '/works' ? styles.active :  styles.link)}
             >
               Works
             </Nav.Link>
@@ -42,7 +52,7 @@ export const NavbarLink = () => {
               as={Link}
               to={"/skills"}
               style={{ fontSize: "1.6rem", color: "#ffd143" }}
-              className={styles.link}
+              className={(url === '/skills' ? styles.active :  styles.link)}
             >
               Skills
             </Nav.Link>
