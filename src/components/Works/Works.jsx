@@ -102,7 +102,7 @@ export const Works = () => {
                   Heroes app was a nice project that i realized in my course of
                   React-Redux with the professor Fernando Herrera,there i
                   learned about the bases of React, React router dom v6, hooks,
-                  and custom hooks and more ,you can check the repository in the
+                  custom hooks and more ,you can check the repository in the
                   link.
                   <br />
                   <a
