@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { NavbarLink } from "../navbar/Navbar";
-import { Card } from "../Card/Card.jsx";
+
 import { Typewriter } from "react-simple-typewriter";
-import { useEffect } from "react";
 import { Carousel } from "react-responsive-carousel";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -97,6 +96,24 @@ export const Works = () => {
                   </a>
                 </p>
               </div>
+              <div>
+                <img src="https://res.cloudinary.com/dwtkwakbc/image/upload/v1660154227/logosportfolio/HeroesApp_atpd2x.png" />
+                <p className="legend">
+                  Heroes app was a nice project that i realized in my course of
+                  React-Redux with the professor Fernando Herrera,there i
+                  learned about the bases of React, React router dom v6, hooks,
+                  and custom hooks and more ,you can check the repository in the
+                  link.
+                  <br />
+                  <a
+                    href="https://github.com/c4miloarriagada/React.Redux/tree/main/07-HeroesApp"
+                    className="link btn btn-light btn-sm"
+                    target="_blank"
+                  >
+                    Repository
+                  </a>
+                </p>
+              </div>
             </Carousel>
             <div className="text-center">
               <button
@@ -163,7 +180,7 @@ export const Works = () => {
                     className="link btn btn-light btn-sm"
                     target="_blank"
                   >
-                      Repositorio
+                    Repositorio
                   </a>
                 </p>
               </div>
@@ -182,7 +199,24 @@ export const Works = () => {
                     className="link btn btn-light btn-sm"
                     target="_blank"
                   >
-                       Repositorio
+                    Repositorio
+                  </a>
+                </p>
+              </div>
+              <div>
+                <img src="https://res.cloudinary.com/dwtkwakbc/image/upload/v1660154227/logosportfolio/HeroesApp_atpd2x.png" />
+                <p className="legend">
+                  Heroes app fue un lindo proyecto que realicé en mi curso de
+                  React-Redux con el profesor Fernando Herrera, allí aprendí
+                  sobre las bases de react, react router dom v6, hooks, custom
+                  hooks y más, puedes consultar el repositorio en el enlace.
+                  <br />
+                  <a
+                    href="https://github.com/c4miloarriagada/React.Redux/tree/main/07-HeroesApp"
+                    className="link btn btn-light btn-sm"
+                    target="_blank"
+                  >
+                    Repository
                   </a>
                 </p>
               </div>

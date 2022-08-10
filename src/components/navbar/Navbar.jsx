@@ -20,7 +20,8 @@ export const NavbarLink = () => {
     <div>
       <Navbar collapseOnSelect expand="md" bg="dark" className="py-0">
         <Navbar.Toggle
-          aria-controls="responsive-navbar-nav"
+          aria-controls="responsive-navbar-nav "
+    
         />
         <Navbar.Collapse className="justify-content-center text-center">
           <Nav >
