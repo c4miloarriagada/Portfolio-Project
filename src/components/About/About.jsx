@@ -39,7 +39,11 @@ export const About = () => {
                       src="https://user-images.githubusercontent.com/86882630/174009890-4daeb2e8-054f-49b5-909f-67789a6b6e03.jpeg"
                     />
                   </a>{" "}
-                  bootcamp and I think that was a amazing experience , I was
+                  bootcamp and I think that was a amazing experience ,for now I'm doing the aceleration full stack React JS / Node Js in <a  href="https://www.alkemy.org/"
+                    target="_blank"
+                    rel="noreferrer"
+                    text="go to Alkemy"
+                    className="alkemy"> Alkemy.org </a> to get my firts IT job. I was
                   working for a lot of years in the aviation field as cabin crew
                   and also I'm commercial pilot.
                   <br />
@@ -118,7 +122,11 @@ export const About = () => {
                       src="https://user-images.githubusercontent.com/86882630/174009890-4daeb2e8-054f-49b5-909f-67789a6b6e03.jpeg"
                     />
                   </a>{" "}
-                  y me pareció una excelente experiencia. Trabajé durante muchos
+                  y me pareció una excelente experiencia, por ahora estoy en <a  href="https://www.alkemy.org/"
+                    target="_blank"
+                    rel="noreferrer"
+                    text="go to Alkemy"
+                    className="alkemy"> Alkemy.org </a> realizando la aceleracion full stack de React JS/ Node JS, para conseguir mi primer trabajo IT . Trabajé durante muchos
                   años en el campo de la aviación como tripulante de cabina,
                   también soy piloto comercial.
                   <br />
